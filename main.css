@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.grid, .operator, .equals {
+  display: inline;
+  float: left;
+  width: 33%;
+  height: 40px;
+  border: 1px solid grey;
+}
+.container {
+  width: 33%
+}
+.answer {
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+}
