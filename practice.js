@@ -11,7 +11,7 @@ $(function() {
 
   function equals() {
     $container.on("click", ".equals", function() {
-      x2 = parseInt(input);
+      x2 = parseFloat(input);
       switch(operator) {
         case "+":
           add(x1, x2);
@@ -33,7 +33,7 @@ $(function() {
   }
   function getOperator() {
     $container.on("click", ".operator", function() {
-      x1 = parseInt(input);
+      x1 = parseFloat(input);
       input = "";
       operator = $(this).text();
       display(operator);
